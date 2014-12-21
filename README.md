@@ -7,7 +7,7 @@
 - **run_analysis.R**: documented source code of the function that produces and returns the tidy dataset
 - **CodeBook.md**: this file lists all the variables in the final dataset. For some reason, the contents of the file get 'wrapped' Please view the file in 'raw' mode.
 
-**Files used by the script** 
+**Files Used By The Script** 
 
 * test folder
 -test/subject_test.txt = test subject ids 
@@ -32,7 +32,7 @@
 
 **Please Note**
 
-- **The data in the "inertial" folder was ignored** because enough information wasn't provided on whether it was a standard deviation or a mean measurement. Also, there was hardly any explanation of what was different about each reading. 
+- **The data in the "inertial" folder was ignored** _because enough information wasn't provided on whether it was a standard deviation or a mean measurement. Also, there was hardly any explanation of what was different about each reading_. 
 - In the final tidy data set, the "activity" was replaced by the descriptive name. Both the activity and activity name could have been maintained in two columns but then it would have violated the tidy data requirement
 - Though it wasnt mentioned, the final tidy dataset is written to a file within the function run_analysis and the tidy dataset is returned at the end of the function
 - The code is well-documented with plenty of inline comments explaining what each step of the process does till the creation of the final tidy dataset
