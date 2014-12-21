@@ -1,5 +1,5 @@
-  
-DATA DICTIONARY - Getting And Cleaning Data Course Project
+  DATA DICTIONARY - Getting And Cleaning Data Course Project
+  ==========================================================
 
  subject 1
  				1..30
