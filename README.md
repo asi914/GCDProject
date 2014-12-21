@@ -8,15 +8,13 @@ Files included in this repo:
 
 Files used by the script:
 * test folder
--test/subject_test.txt - test subject ids 
--test/X_test.txt - measurements
--test/y_test.txt - activities during which measurements were made
-
+-test/subject_test.txt = test subject ids 
+-test/X_test.txt = measurements
+-test/y_test.txt = activities during which measurements were made
 * train folder
-- train/subject_train.txt - training subject ids
-- train/X_train.txt - measurements
-- train/y_train.txt - activities during which measurements were made
-
+- train/subject_train.txt = training subject ids
+- train/X_train.txt = measurements
+- train/y_train.txt = activities during which measurements were made
 * features.txt - descriptions of the variables in dataset
 * activity_labels.txt - descriptive labels for the activities
 
