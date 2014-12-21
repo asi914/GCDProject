@@ -14,12 +14,12 @@ Process:
 * Reads the test and training data and merges into one data set
 * Extracts only the measurements on the mean and standard deviation for each measurement
       ** Assumption: Any variable with 'std' or 'mean' in its name was assumed to be a standard deviation or mean measurement
-      - Uses descriptive activity names to name the activities in the data set
-      - the activity names were obtained from the activity_labels.txt file
-      - Appropriately labels the data set with descriptive variable names. 
-      - the variable names were created after removing the alphanumeric characters from the measurement names. They
+* Uses descriptive activity names to name the activities in the data set
+      ** the activity names were obtained from the activity_labels.txt file
+* Appropriately labels the data set with descriptive variable names. 
+      ** the variable names were created after removing the alphanumeric characters from the measurement names. They
       seemed description enough for the purposes of this dataset
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 
 Important Assumptions:
 - The data in the "inertial" folder was ignored because enough information wasn't provided on whether it was a standard deviation or a mean measurement. Also, there was hardly any explanation of what was different about each reading. 
