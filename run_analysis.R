@@ -43,7 +43,7 @@ run_analysis <- function() {
   # Combine the test and training data set needed for step 1
   testAndTrainData <- rbind(test_data,train_data)
   
-  # 2)
+  # Step 2)
 
   # combine the measurements from test and training sets
   measurements <- rbind(X_test,X_train)
@@ -51,8 +51,7 @@ run_analysis <- function() {
   # extract the measurements that correspond to a standard deviation or mean values
   step2DataSet <- cbind(testAndTrainData[,1:2], measurements[,grepl("mean|std",featuresNames,ignore.case=TRUE)])
   
-  # 3)  
-  
+  # Step 3)  
   # read the activity names from the file and modify the activity column in the combined data 
   # set to reflect that 
   activityLabels <- read.table("activity_labels.txt",header=FALSE, sep = "",blank.lines.skip = TRUE,col.names=c("activity","activityName"))
@@ -66,14 +65,14 @@ run_analysis <- function() {
   # due to the cbind and reordering of columns above, we need to rename the column again 
   colnames(step3DataSet)[2] <- "activity"
   
-  # 4)
+  # Step 4)
   # All the column names are descriptive at this point so no specific actions need 
   # to be taken for this step. Created a new dataset in this step to avoid confusion
   # in subsequent steps
   
   step4DataSet <- step3DataSet
   
-  # 5)
+  # Step 5)
   
   # we will have to reshape the data in order to do step 5
   meltSet <- melt(step4DataSet,id.vars=c("subject","activity"))
