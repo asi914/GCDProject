@@ -24,7 +24,7 @@ DATA DICTIONARY - Getting And Cleaning Data Course Project
  tGravityAccstdY
  tGravityAccstdZ
  tBodyAccJerkmeanX
- tBodyAccJerkmeanY
+ tBodyAccJerkmeanY 
  tBodyAccJerkmeanZ
  tBodyAccJerkstdX
  tBodyAccJerkstdY
