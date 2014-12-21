@@ -15,8 +15,8 @@ Files used by the script:
 - train/subject_train.txt = training subject ids
 - train/X_train.txt = measurements
 - train/y_train.txt = activities during which measurements were made
-* features.txt - descriptions of the variables in dataset
-* activity_labels.txt - descriptive labels for the activities
+* features.txt = descriptions of the variables in dataset
+* activity_labels.txt = descriptive labels for the activities
 
 Process:
 * The train and test data sets (and folders) were copied to the same working directory as the working assignment. 
