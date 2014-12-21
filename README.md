@@ -1,7 +1,7 @@
 ## Getting And Cleaning Data Course Project
 ## ========================================
 
-** Files included in this Repo:**
+* Files included in this Repo *
 
 - **README.md** (current file)
 - **run_analysis.R**: documented source code of the function that produces and returns the tidy dataset
