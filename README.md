@@ -31,7 +31,7 @@
 - From the data set in step 4, a second independent tidy data set with the average of each variable for each activity and each subject was created.  
 
 **Please Note**
-
+- Descriptive column names were used as much as possible even in the earlier steps of the analysis script since that made more sense than just combining all the data and assigning descriptive column names at the end.  
 - **The data in the "inertial" folder was ignored** _because enough information wasn't provided on whether it was a standard deviation or a mean measurement. Also, there was hardly any explanation of what was different about each reading_. 
 - In the final tidy data set, the "activity" was replaced by the descriptive name. Both the activity and activity name could have been maintained in two columns but then it would have violated the tidy data requirement
 - Though it wasnt mentioned, the final tidy dataset is written to a file within the function run_analysis and the tidy dataset is returned at the end of the function
