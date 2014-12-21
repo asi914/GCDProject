@@ -10,10 +10,10 @@ Files accessed by the script:
 
 
 Process:
-- The train and test data sets (and folders) were copied to the same working directory as the working assignment. The run_analysis function does the following:
-- Reads the test and training data and merges into one data set
-- Extracts only the measurements on the mean and standard deviation for each measurement
-      - Assumption: Any variable with 'std' or 'mean' in its name was assumed to be a standard deviation or mean measurement
+* The train and test data sets (and folders) were copied to the same working directory as the working assignment. The run_analysis function does the following:
+* Reads the test and training data and merges into one data set
+* Extracts only the measurements on the mean and standard deviation for each measurement
+      ** Assumption: Any variable with 'std' or 'mean' in its name was assumed to be a standard deviation or mean measurement
       - Uses descriptive activity names to name the activities in the data set
       - the activity names were obtained from the activity_labels.txt file
       - Appropriately labels the data set with descriptive variable names. 
