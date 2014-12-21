@@ -18,7 +18,7 @@
  tBodyAccstdZ
  tGravityAccmeanX
  tGravityAccmeanY
- tGravityAccmeanZ
+ tGravityAccmeanZ 
  tGravityAccstdX
  tGravityAccstdY
  tGravityAccstdZ
