@@ -1,16 +1,15 @@
   DATA DICTIONARY - Getting And Cleaning Data Course Project
   ==========================================================
-
  subject 1
- 				1..30
+       1..30
  activity
- 			Factor w/ 6 levels 
- 			1 WALKING
-			2 WALKING_UPSTAIRS
-			3 WALKING_DOWNSTAIRS
-			4 SITTING
-			5 STANDING
-			6 LAYING
+ 	Factor w/ 6 levels 
+ 		1 WALKING
+		2 WALKING_UPSTAIRS
+		3 WALKING_DOWNSTAIRS
+		4 SITTING
+		5 STANDING
+		6 LAYING
  tBodyAccmeanX 5
  tBodyAccmeanY 8
  tBodyAccmeanZ 6
